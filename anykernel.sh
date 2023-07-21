@@ -4,14 +4,14 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=KernelSU by SakuraKyuo
+kernel.string=KernelSU by Nya
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=sirius
-device.name2=xmsirius
+device.name1=sagit
+device.name2=
 supported.versions=
 supported.patchlevels=
 '; } # end properties
@@ -22,7 +22,6 @@ supported.patchlevels=
 block=/dev/block/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
-patch_vbmeta_flag=auto;
 
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
